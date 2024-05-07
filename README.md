@@ -1,4 +1,4 @@
-# sales_data_analysis
+# sales_data_analysis (W.I.P.)
 Repository for the Sales Data project across the various tools used in the analysis. 
 
 In this analysis, our goal is to explore what kind of factors influence the revenue generated on stores, like outdoor temperature, holidays, and the unemployment rate, fuel cost, and  for example. 
