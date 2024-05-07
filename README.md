@@ -50,6 +50,8 @@ Here's our new Result:
 ![CAST table column from INT to STRING](https://github.com/xDavidHx/sales_data_analysis/blob/main/Distinct%20Store%20Cast%20Value%20to%20String.png) 
 
 
+It looks like we have no duplicate store numbers!
 
+Next, lets get a general picutre of what amount of revenue our collection of stores has generated on a week-by-week basis from earliest to latest. 
 
 
