@@ -86,3 +86,5 @@ ORDER BY date
 Here's the result: 
 ![Rounded Weekly Regional Sales](https://github.com/xDavidHx/sales_data_analysis/blob/main/Rounded%20Weekly%20sales%20RESULTS%20.png)
 
+Much Better! 
+
