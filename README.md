@@ -88,3 +88,7 @@ Here's the result:
 
 Much Better! 
 
+#This is a Work in progress! Next time we'll use this data in Tableau to get a full picture of what our regional sales are. 
+#then we'll compare that to what the other columns data contains!
+
+
