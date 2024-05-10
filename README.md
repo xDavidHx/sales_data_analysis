@@ -71,3 +71,18 @@ And the Result is:
 
 ![Weekly Regional Sales](https://github.com/xDavidHx/sales_data_analysis/blob/main/weekly%20sales%20by%20date%20SQL%20results%20.png)
 
+Looks Good! So now lets get our Revenue amounts into a 2 decimal place format to reflect currency:
+```
+SELECT
+  ROUND(SUM(weekly_sales), 2) AS region_sales_per_week,
+  FORMAT_DATE('%m/%d/%y', date) AS date_in_MMDDYY
+ 
+
+FROM dehproject24.Kaggle_Datasets.walmart_sales_data
+
+GROUP BY date
+ORDER BY date
+```
+Here's the result: 
+![Rounded Weekly Regional Sales](https://github.com/xDavidHx/sales_data_analysis/blob/main/Rounded%20Weekly%20sales%20RESULTS%20.png)
+
