@@ -54,4 +54,20 @@ It looks like we have no duplicate store numbers!
 
 Next, lets get a general picutre of what amount of revenue our collection of stores has generated on a week-by-week basis from earliest to latest. 
 
+The SQL Query to write that follows here:
+
+```
+SELECT
+  SUM(Weekly_Sales) AS region_sales_per_week,
+  FORMAT_DATE('%m/%d/%y', date) AS date_in_MMDDYY
+ 
+
+FROM dehproject24.Kaggle_Datasets.walmart_sales_data
+
+GROUP BY date
+ORDER BY date
+```
+And the Result is: 
+
+![Weekly Regional Sales](https://github.com/xDavidHx/sales_data_analysis/blob/main/weekly%20sales%20by%20date%20SQL%20results%20.png)
 
