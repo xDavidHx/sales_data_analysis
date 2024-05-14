@@ -88,7 +88,32 @@ Here's the result:
 
 Much Better! 
 
+Here's a glimpse of what we're looking at in terms of weekly sales for our region. I've included each year to make sure we have a picture of all of our data's story. 
+
+![Regional Sales 2010-2012 in Tableau](https://github.com/xDavidHx/sales_data_analysis/blob/main/Screen%20Shot%202024-05-14%20at%202.21.30%20PM.png)
+
+At first sight, we can see that there is a common pattern each year follows. Each year starts out lower than most of the same year, then ends on a very high note, only to drop trememdously a the start of the following year. 
+
+There's also another thing I'm seeing. In the United States, Each spike in revenue tends to correspond to a national holiday.
+
+Quick Side note: After Noticing that our data visualization had dates ending in October of 2012, I decided to make sure they did with a query here to see if our data does in fact end before Winter holiday 2012)
+
+![Filter for all 2012 Dates](https://github.com/xDavidHx/sales_data_analysis/blob/main/Query%20for%20revised%202012%20dates%20.png)
+
+Our Result was clear!
+
+![All 2012 dates](https://github.com/xDavidHx/sales_data_analysis/blob/main/2012%20dates%20query%20results.png)
+
+So it does in fact show our data ends before winter holiday 2012!
+
+The next thing I'd love to know is how do holidays affect our revenue after noticing the large spikes during Typical holiday times in the United States. 
+
+
+
+
 #This is a Work in progress! Next time we'll use this data in Tableau to get a full picture of what our regional sales are. 
 #then we'll compare that to what the other columns data contains!
+
+
 
 
